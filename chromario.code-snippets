@@ -1,0 +1,39 @@
+{
+  "chroma-rio assets": {
+    "prefix": "cr assets",
+    "scope": "html",
+    "body": [
+      "<!-- chroma-rio -->",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/rgb-wheel.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/rgb-wheel-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/rgb-wheel-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/rgb-wheel-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/brand-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/brand-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/brand-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/primary-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/primary-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/primary-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/secondary-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/secondary-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/secondary-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/tertiary-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/tertiary-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/tertiary-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quaternary-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quaternary-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quaternary-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quinary-ten-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quinary-twenty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/quinary-fifty-variants.min.css\">",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/elevation.min.css\">",
+      "",
+      "<!-- bootstrap -->",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/vendors/twbs/bootstrap/5.3.2/css/bootstrap.min.css\">",
+      "<script defer src=\"path_to_public/vendors/msmachadodossantos/chroma-rio/${1:SemVer}/vendors/twbs/bootstrap/5.3.2/js/bootstrap.bundle.min.js\"></script>",
+      "",
+      "<!-- bootstrap-icons -->",
+      "<link rel=\"stylesheet\" href=\"path_to_public/vendors/twbs/icons/1.11.2/font/bootstrap-icons.min.css\">"
+    ]
+  }
+}
