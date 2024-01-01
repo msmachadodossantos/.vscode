@@ -21,6 +21,9 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "vscode.php-language-features"
   }
 
   // Configure extensions
