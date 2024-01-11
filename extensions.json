@@ -5,7 +5,6 @@
     "github.copilot",
     "github.copilot-chat",
     "gruntfuggly.todo-tree",
-    "jebbs.plantuml",
-    "ms-edgedevtools.vscode-edge-devtools"
+    "junstyle.php-cs-fixer"
   ]
 }
