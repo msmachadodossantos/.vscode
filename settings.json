@@ -21,7 +21,13 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar"
 
   // Configure extensions
 
