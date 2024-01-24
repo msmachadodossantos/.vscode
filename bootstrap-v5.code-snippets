@@ -66,7 +66,9 @@
   "Bootstrap Column": {
     "prefix": "bs5 col",
     "scope": "html",
-    "body": ["<div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12\">$1</div>"]
+    "body": [
+      "<div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12\">$1</div>"
+    ]
   },
 
   "Bootstrap Accordion": {
@@ -130,7 +132,9 @@
   "Bootstrap Button: Button Element": {
     "prefix": "bs5 button: button",
     "scope": "html",
-    "body": ["<button type=\"button\" class=\"btn btn-primary\">Primary</button>"]
+    "body": [
+      "<button type=\"button\" class=\"btn btn-primary\">Primary</button>"
+    ]
   },
   "Bootstrap Button: Hyperlink": {
     "prefix": "bs5 button: hyperlink",
@@ -295,7 +299,9 @@
   "Bootstrap Close Button": {
     "prefix": "bs5 close button",
     "scope": "html",
-    "body": ["<button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"></button>"]
+    "body": [
+      "<button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"></button>"
+    ]
   },
   "Bootstrap Collapse": {
     "prefix": "bs5 collapse",
@@ -909,6 +915,29 @@
       "  <label for=\"input-$CURRENT_SECONDS_UNIX\">${1:INPUT_LABEL}</label>",
       "  <div class=\"form-text\">${3:INPUT_DESCRIPTION_OR_REQUIREMENTS}</div>",
       "</div>"
+    ]
+  },
+  "Bootstrap and Quill Editor v1.3.7": {
+    "prefix": "bs5 quill editor v1.3.7",
+    "body": [
+      "<div id=\"editor-${CURRENT_SECONDS_UNIX}\"></div>",
+      "<textarea id=\"input-${CURRENT_SECONDS_UNIX}\" hidden></textarea>",
+      "<div class=\"form-text mb-3\">",
+      "    This field is required and must be between 3 and 46,368 characters long.",
+      "</div>",
+      "<script>",
+      "    const quill = new Quill(\"#editor-${CURRENT_SECONDS_UNIX}\", {",
+      "        modules: {",
+      "            toolbar: quillToolbar,",
+      "        },",
+      "        theme: \"snow\",",
+      "    });",
+      "",
+      "    const textarea = document.getElementById(\"input-${CURRENT_SECONDS_UNIX}\");",
+      "    quill.on(\"text-change\", (delta, oldValue, newValue) => {",
+      "        textarea.textContent = quill.root.innerHTML;",
+      "    });",
+      "</script>"
     ]
   },
   "Bootstrap Floating Labels: Select": {
